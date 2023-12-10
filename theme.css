@@ -5,6 +5,7 @@
 @import url(./style/memo.css);
 @import url(./style/dock.css);
 @import url(./style/embed.css);
+@import url(./style/custom.css);
 
 :root {
     /* 主色 */
