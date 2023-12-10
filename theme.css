@@ -5,6 +5,9 @@
 @import url(./style/memo.css);
 @import url(./style/dock.css);
 @import url(./style/embed.css);
+@import url(./style/caption.css);
+@import url(./style/inline.css);
+@import url(./style/table.css);
 @import url(./style/custom.css);
 
 :root {
