@@ -3,6 +3,8 @@
 @import url(./style/heading.css);
 @import url(./style/title.css);
 @import url(./style/memo.css);
+@import url(./style/dock.css);
+@import url(./style/embed.css);
 
 :root {
     /* 主色 */
@@ -19,10 +21,10 @@
     --b3-theme-background: #fff;
     --b3-theme-background-light: #dfe0e1;
 
-    --b3-theme-surface: #f6f6f6;
+    --b3-theme-surface: rgb(243, 243, 243);
     --b3-theme-surface-light: rgba(243, 243, 243, .86);
     --b3-theme-surface-lighter: #e0e0e0;
-    --b3-theme-error: #d23f31;
+    --b3-theme-error: #d95b4f;
 
     /* 文字颜色 */
     --b3-theme-on-primary: #fff;

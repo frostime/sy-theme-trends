@@ -1,0 +1,9 @@
+/* 左右 Docker 面板 */
+div.layout-tab-container {
+    background: var(--b3-theme-background);
+}
+
+
+.layout__resize--lr::after {
+    width: 5px;
+}
