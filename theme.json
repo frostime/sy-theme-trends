@@ -1,8 +1,8 @@
 {
-  "name": "Trends in SiYuan",
+  "name": "trends-in-siyuan",
   "author": "frostime",
   "url": "https://github.com/frostime/sy-theme-trends",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "minAppVersion": "2.9.0",
   "displayName": {
     "default": "Trends in SiYuan",
