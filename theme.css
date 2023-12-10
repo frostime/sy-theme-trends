@@ -13,9 +13,9 @@
 :root {
     /* 主色 */
     --b3-theme-primary: rgb(0, 152, 209);
-    --b3-theme-primary-light: rgba(0, 152, 209, 0.54);
-    --b3-theme-primary-lighter: rgba(0, 152, 209, 0.38);
-    --b3-theme-primary-lightest: rgba(0, 152, 209, 0.12);
+    --b3-theme-primary-light: rgba(0, 152, 209, 0.75);
+    --b3-theme-primary-lighter: rgba(0, 152, 209, 0.50);
+    --b3-theme-primary-lightest: rgba(0, 152, 209, 0.25);
 
     --b3-theme-secondary: rgb(171,75,75);
 
@@ -25,9 +25,9 @@
     --b3-theme-background: #fff;
     --b3-theme-background-light: #dfe0e1;
 
-    --b3-theme-surface: rgb(243, 243, 243);
-    --b3-theme-surface-light: rgba(243, 243, 243, .86);
-    --b3-theme-surface-lighter: #e0e0e0;
+    --b3-theme-surface: rgb(245, 245, 245);
+    --b3-theme-surface-light: rgba(245, 245, 245, .86);
+    --b3-theme-surface-lighter: rgb(240, 240, 240);
     --b3-theme-error: #d95b4f;
 
     /* 文字颜色 */
@@ -61,8 +61,9 @@
     --b3-menu-background: var(--b3-theme-surface);
 
     /* 提示 */
-    --b3-tooltips-background: rgba(0, 0, 0, .9);
-    --b3-tooltips-color: var(--b3-theme-background-light);
+    /* --b3-tooltips-background: rgba(0, 0, 0, .9); */
+    --b3-tooltips-background: var(--b3-theme-primary-light);
+    --b3-tooltips-color: var(--b3-theme-on-primary);
     --b3-tooltips-shadow: 0 2px 8px rgba(0, 0, 0, .1);
 
     /* av */
@@ -181,5 +182,10 @@
     --b3-pdf-background6: #69B0F2;
     --b3-pdf-background7: #C885DA;
     --b3-pdf-dark: #212224;
+}
+
+#toolbar>.fn__ellipsis {
+    font-weight: bold;
+    font-size: 1.25em;
 }
 
