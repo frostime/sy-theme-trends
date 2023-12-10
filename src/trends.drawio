@@ -1,0 +1,16 @@
+<mxfile host="Electron" modified="2023-12-10T05:44:45.517Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="YGSpEjdNwkBXYQfaUfuF" version="22.1.2" type="device">
+  <diagram name="第 1 页" id="tyv2utmt_E9uJSGxMll0">
+    <mxGraphModel dx="619" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H9OBpOHj6smQSju4Y0Dg-1" value="&lt;b&gt;&lt;font face=&quot;HarmonySC&quot; style=&quot;font-size: 23px;&quot;&gt;Trends in&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0098D1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="460" width="114.29" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H9OBpOHj6smQSju4Y0Dg-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;SiYuan&amp;nbsp;Notes&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0098D1;fontFamily=HarmonySC;" parent="1" vertex="1">
+          <mxGeometry x="760" y="481" width="190.48" height="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
