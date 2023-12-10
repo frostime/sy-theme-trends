@@ -23,3 +23,13 @@
 .protyle-wysiwyg [data-node-id] span[data-type~=a] {
     border-bottom: 1px solid var(--b3-protyle-inline-link-color);
 }
+
+
+.protyle-wysiwyg [data-node-id] .def--mark {
+    background-color: var(--b3-theme-background);
+    border-color: var(--b3-theme-secondary);
+    border-width: 3px;
+    padding: 2px;
+    border-style: solid;
+}
+
