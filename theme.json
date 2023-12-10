@@ -1,16 +1,16 @@
 {
-  "name": "theme-sample",
+  "name": "Trends in SiYuan",
   "author": "Vanessa",
-  "url": "https://github.com/siyuan-note/theme-sample",
-  "version": "0.0.3",
-  "minAppVersion": "2.8.8",
+  "url": "https://github.com/frostime/sy-theme-trends",
+  "version": "0.1.0",
+  "minAppVersion": "2.9.0",
   "displayName": {
-    "default": "Theme Sample",
-    "zh_CN": "主题示例"
+    "default": "Trends in SiYuan",
+    "zh_CN": "Trends in SiYuan"
   },
   "description": {
-    "default": "This is a theme sample",
-    "zh_CN": "这是一个主题示例"
+    "default": "Theme for SiYuan inspired by Trends series journals.",
+    "zh_CN": "仿 Trends 系列期刊主题"
   },
   "readme": {
     "default": "README.md",
@@ -21,13 +21,10 @@
     "patreon": "",
     "github": "",
     "custom": [
-      "https://ld246.com/sponsor"
+      "https://afdian.net/a/frostime"
     ]
   },
   "modes": [
     "light"
-  ],
-  "keywords": [
-    "sample", "示例"
   ]
 }

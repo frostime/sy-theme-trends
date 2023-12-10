@@ -1,0 +1,21 @@
+.protyle-wysiwyg [data-node-id] span[data-type~="block-ref"]::before {
+    content: "[";
+    color: var(--b3-theme-on-background);
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 0 0.125em;
+    padding: 0;
+    position: inherit;
+    font-size: 1em;
+}
+
+.protyle-wysiwyg [data-node-id] span[data-type~="block-ref"]::after {
+    content: "]";
+    color: var(--b3-theme-on-background);
+    display: inline-block;
+    text-align: center;
+    margin: 0 0.125em 0 0;
+    padding: 0;
+    position: inherit;
+    font-size: 1em;
+}
