@@ -10,6 +10,7 @@
 @import url(./style/table.css);
 @import url(./style/code.css);
 @import url(./style/custom.css);
+@import url(./style/plugin.css);
 
 :root {
     /* 主色 */
@@ -17,6 +18,7 @@
     --b3-theme-primary-light: rgba(0, 152, 209, 0.75);
     --b3-theme-primary-lighter: rgba(0, 152, 209, 0.50);
     --b3-theme-primary-lightest: rgba(0, 152, 209, 0.25);
+    --b3-theme-primary-lightest-pro: rgba(0, 152, 209, 0.1);
 
     --b3-theme-secondary: rgb(171,75,75);
 
@@ -162,11 +164,12 @@
 
     /* 所见即所得行内元素颜色 */
     --b3-protyle-inline-strong-color: #000;
-    --b3-protyle-inline-em-color: var(--b3-protyle-inline-strong-color);
+    --b3-protyle-inline-em-color: #000;
     --b3-protyle-inline-s-color: var(--b3-protyle-inline-strong-color);
     --b3-protyle-inline-link-color: var(--b3-theme-primary);
-    --b3-protyle-inline-mark-background: var(--b3-theme-primary-lighter);
-    --b3-protyle-inline-mark-color: var(--b3-protyle-inline-strong-color);
+    /* --b3-protyle-inline-mark-background: var(--b3-theme-primary-lighter); */
+    --b3-protyle-inline-mark-background: var(--b3-theme-background);
+    --b3-protyle-inline-mark-color: var(--b3-theme-secondary);
     --b3-protyle-inline-tag-color: #5f6368;
     --b3-protyle-inline-blockref-color: var(--b3-theme-primary);
     --b3-protyle-inline-fileref-color: #21862e;
