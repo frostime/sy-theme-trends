@@ -27,10 +27,12 @@ div.layout-tab-container {
     border-radius: 2px;
 }
 
-.backlinkList>ul>li.b3-list-item:hover,
-.backlinkMList>ul>li.b3-list-item:hover {
+
+.backlinkList>ul>li.b3-list-item:hover:not(.b3-list-item--focus),
+.backlinkMList>ul>li.b3-list-item:hover:not(.b3-list-item--focus) {
     background: var(--b3-theme-primary-lightest-pro);
 }
+
 
 .backlinkList>ul>li.b3-list-item.b3-list-item--focus,
 .backlinkMList>ul>li.b3-list-item.b3-list-item--focus {
