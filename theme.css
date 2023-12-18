@@ -168,7 +168,7 @@
     --b3-protyle-inline-s-color: var(--b3-protyle-inline-strong-color);
     --b3-protyle-inline-link-color: var(--b3-theme-primary);
     /* --b3-protyle-inline-mark-background: var(--b3-theme-primary-lighter); */
-    --b3-protyle-inline-mark-background: var(--b3-theme-background);
+    --b3-protyle-inline-mark-background: rgb(236, 236, 238);
     --b3-protyle-inline-mark-color: var(--b3-theme-secondary);
     --b3-protyle-inline-tag-color: #5f6368;
     --b3-protyle-inline-blockref-color: var(--b3-theme-primary);

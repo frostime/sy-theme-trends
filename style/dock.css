@@ -19,13 +19,17 @@ div.layout-tab-container {
 /* 反链面板 */
 .backlinkList>ul>li.b3-list-item,
 .backlinkMList>ul>li.b3-list-item {
-    background: var(--b3-theme-primary-lightest-pro);
+    background: var(--b3-theme-surface);
     margin-top: 10px;
     margin-bottom: 0px;
     padding-top: 2px;
     padding-bottom: 2px;
     border-radius: 2px;
-    /* outline: solid 1px var(--b3-theme-primary-lighter); */
+}
+
+.backlinkList>ul>li.b3-list-item:hover,
+.backlinkMList>ul>li.b3-list-item:hover {
+    background: var(--b3-theme-primary-lightest-pro);
 }
 
 .backlinkList>ul>li.b3-list-item.b3-list-item--focus,
