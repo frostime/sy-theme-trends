@@ -7,6 +7,13 @@
     padding: 5px;
 }
 
+.protyle-wysiwyg div[data-node-id].bq div[data-node-id].bq:not([custom-b]) {
+    /* background-color: #ECECEE; */
+    color: var(--b3-theme-on-background-light);
+    border-left: 4px solid var(--b3-theme-secondary);
+    box-sizing: border-box;
+}
+
 /* 引述块里面的 marker 文本 */
 .protyle-wysiwyg div[data-node-id].bq span[data-type="mark"] {
     background-color: var(--b3-theme-background);

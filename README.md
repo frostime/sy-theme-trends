@@ -12,3 +12,20 @@ A theme that mimics the style of the Trends series of journals, with a simple an
     - Bold font
     - Blue color
 
+
+## Hint
+
+The `Trends in SiYuan` at the top of the title is a svg pseudo-element, the original image was drawn using drawio and is visible in the source src directory.
+
+If you do not want this banner to be displayed, you can set the following css code snippet.
+
+```css
+.protyle-title::before, .protyle-title::after {
+    display: none;
+}
+
+.protyle-title>div[contenteditable] {
+    margin-top: unset;
+}
+``
+
