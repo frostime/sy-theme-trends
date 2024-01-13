@@ -15,9 +15,9 @@
 }
 
 /* 引述块里面的 marker 文本 */
-.protyle-wysiwyg div[data-node-id].bq span[data-type="mark"] {
+.protyle-wysiwyg div[data-node-id].bq span[data-type~="mark"] {
     background-color: var(--b3-theme-background);
 }
-.protyle-wysiwyg div[data-node-id].bq span[data-type="mark"]:hover {
+.protyle-wysiwyg div[data-node-id].bq span[data-type~="mark"]:hover {
     background-color: var(--b3-theme-primary-lighter);
 }
