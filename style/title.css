@@ -42,3 +42,15 @@
     top: -6rem;
     height: 5rem;
 }
+
+/* html[data-theme-mode="light"][data-light-theme="trends-in-siyuan"][data-trends-in-siyuan-flag="no-backsvg"] {
+
+    .protyle-title::before,
+    .protyle-title::after {
+        display: none;
+    }
+
+    .protyle-title>div[contenteditable] {
+        margin-top: unset;
+    }
+} */

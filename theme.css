@@ -192,8 +192,19 @@
     --b3-pdf-dark: #212224;
 }
 
+
+
 #toolbar>.fn__ellipsis {
     font-weight: bold;
     font-size: 1.25em;
 }
 
+
+/* 软件 UI 字体相关 */
+body {
+    font-weight: 500;
+}
+
+div.protyle-wysiwyg {
+    font-weight: 400;
+}
