@@ -1,6 +1,7 @@
-.protyle-wysiwyg [data-node-id].table {
+/* https://github.com/frostime/sy-theme-trends/issues/2 */
+/* .protyle-wysiwyg [data-node-id].table {
     text-align: center;
-}
+} */
 
 
 .b3-typography table td,
