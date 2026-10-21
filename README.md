@@ -6,6 +6,7 @@ A theme that mimics the style of the Trends series of journals, with a simple an
     - Color scheme
     - Table styles
     - Icon caption color
+- Multi-state task list: native task squares, with muted done/abandoned text and a clear strike
 - Banner at the top of the document
 - Tables are centered by default
 - Custom attributes: Setting `paper-part` to `abstract` will display the paragraph as an abstract.

@@ -1,33 +1,32 @@
-/* https://github.com/frostime/sy-theme-trends/issues/2 */
-/* .protyle-wysiwyg [data-node-id].table {
-    text-align: center;
-} */
+/*
+ * Trends in... Table 1
+ *
+ * The journal table is a single light-grey data field, not a zebra table:
+ * a medium-grey header band, light-grey body cells, and thin white gaps
+ * between rows and columns. The theme keeps the document's own type.
+ */
 
+.b3-typography table,
+.protyle-wysiwyg table {
+    border-collapse: separate !important;
+    border-spacing: 2px !important;
+    border: none !important;
+    background-color: #ffffff !important;
+}
 
-.b3-typography table td,
 .b3-typography table th,
-.protyle-wysiwyg table td,
 .protyle-wysiwyg table th {
-    background-color: #A5A5A5;
-    color: #fff;
-}
-
-
-.b3-typography table tr:nth-child(2n) td,
-.protyle-wysiwyg table tr:nth-child(2n) td {
-    background-color: #F0F0F0;
-    color: var(--b3-theme-on-background);
-}
-
-.b3-typography table tr:nth-child(2n+1) td,
-.protyle-wysiwyg table tr:nth-child(2n+1) td {
-    background-color: #E1E1E1;
-    color: var(--b3-theme-on-background);
+    background-color: #babec0 !important;
+    color: var(--b3-theme-on-background) !important;
+    font-weight: 400 !important;
+    padding: 7px 12px;
+    border: none !important;
 }
 
 .b3-typography table td,
-.b3-typography table th,
-.protyle-wysiwyg table td,
-.protyle-wysiwyg table th {
-    border: 3px solid var(--b3-theme-background);
+.protyle-wysiwyg table td {
+    background-color: #e4e7e8 !important;
+    color: var(--b3-theme-on-background) !important;
+    padding: 8px 12px;
+    border: none !important;
 }
