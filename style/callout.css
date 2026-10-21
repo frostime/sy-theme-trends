@@ -22,6 +22,9 @@
 
 .b3-typography .callout::before,
 .protyle-wysiwyg .callout::before {
+    top: 0 !important;
+    bottom: 0 !important;
+    height: 100% !important;
     border-radius: 0px !important;
 }
 
