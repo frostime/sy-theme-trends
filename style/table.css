@@ -4,30 +4,53 @@
 } */
 
 
-.b3-typography table td,
-.b3-typography table th,
-.protyle-wysiwyg table td,
-.protyle-wysiwyg table th {
-    background-color: #A5A5A5;
-    color: #fff;
+/*
+ * Table 1 publication-ready styling
+ * De-densify grid lines, apply crisp zebra striping, and deep neutral header.
+ */
+
+.b3-typography table,
+.protyle-wysiwyg table {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
 }
 
+.b3-typography table th,
+.protyle-wysiwyg table th {
+    background-color: #8a8d91 !important;
+    color: #ffffff !important;
+    font-weight: 600;
+    padding: 7px 12px;
+    border: none !important;
+    border-right: 1px solid #ffffff !important;
+}
 
-.b3-typography table tr:nth-child(2n) td,
-.protyle-wysiwyg table tr:nth-child(2n) td {
-    background-color: #F0F0F0;
+.b3-typography table th:last-child,
+.protyle-wysiwyg table th:last-child {
+    border-right: none !important;
+}
+
+.b3-typography table td,
+.protyle-wysiwyg table td {
+    padding: 7px 12px;
+    border: none !important;
+    border-bottom: 1px solid #ffffff !important;
+    border-right: 1px solid #ffffff !important;
+}
+
+.b3-typography table td:last-child,
+.protyle-wysiwyg table td:last-child {
+    border-right: none !important;
+}
+
+.b3-typography table tr:nth-child(even) td,
+.protyle-wysiwyg table tr:nth-child(even) td {
+    background-color: #f4f5f7 !important;
     color: var(--b3-theme-on-background);
 }
 
-.b3-typography table tr:nth-child(2n+1) td,
-.protyle-wysiwyg table tr:nth-child(2n+1) td {
-    background-color: #E1E1E1;
+.b3-typography table tr:nth-child(odd) td,
+.protyle-wysiwyg table tr:nth-child(odd) td {
+    background-color: #ffffff !important;
     color: var(--b3-theme-on-background);
-}
-
-.b3-typography table td,
-.b3-typography table th,
-.protyle-wysiwyg table td,
-.protyle-wysiwyg table th {
-    border: 3px solid var(--b3-theme-background);
 }

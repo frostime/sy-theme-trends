@@ -1,8 +1,9 @@
 .b3-typography pre,
 .protyle-wysiwyg div.code-block {
-    background-color: var(--b3-theme-background);
-    border: 2px solid var(--b3-theme-primary-light);
-    border-radius: 0px;
+    background-color: #f8f9fa;
+    border: 1px solid #e2e8f0;
+    border-top: 3px solid var(--b3-theme-primary);
+    border-radius: 2px;
 }
 
 
