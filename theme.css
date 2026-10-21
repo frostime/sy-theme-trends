@@ -9,6 +9,7 @@
 @import url(./style/inline.css);
 @import url(./style/table.css);
 @import url(./style/code.css);
+@import url(./style/tasks.css);
 @import url(./style/custom.css);
 @import url(./style/plugin.css);
 @import url(./style/layouts.css);
@@ -30,8 +31,14 @@
     --b3-theme-background: #fff;
     --b3-theme-background-light: #dfe0e1;
 
+    /* SiYuan 3.8 paints an ambient halo behind the window. Keep the published
+       solid canvas instead, so the frame stays a flat colour. */
+    --b3-body-background: #EBECF0;
+    --b3-body-background-hl-opacity: 0;
+    --b3-body-background-gradient: none;
+
     --b3-theme-surface: rgb(245, 245, 245);
-    --b3-theme-surface-light: rgba(245, 245, 245, .86);
+    --b3-theme-surface-light: #f5f5f5;
     --b3-theme-surface-lighter: rgb(240, 240, 240);
     --b3-theme-error: #d95b4f;
 
@@ -203,6 +210,7 @@
 /* 软件 UI 字体相关 */
 body {
     font-weight: 500;
+    background-image: none !important;
 }
 
 div.protyle-wysiwyg {
